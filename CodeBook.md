@@ -32,11 +32,17 @@ The data provided as input for the project represent data collected from the acc
 9.Read *activity_labels.txt* to get names of the activities which are as follows:
 
        1      |  WALKING
+       
        2      |  WALKING_UPSTAIRS
+       
        3      |  WALKING_DOWNSTAIRS
+       
        4      |  SITTING
+       
        5      |  STANDING
+       
        6      |  LAYING  
+       
      
 10.Uses descriptive activity names to name the activities in the data set
 
@@ -125,6 +131,7 @@ The data provided as input for the project represent data collected from the acc
        $ FrequencyBodyGyroscopeMagnitude-std         : num  -0.824 -0.961 -0.955 -0.947 -0.959 ...
        $ FrequencyBodyGyroscopeJerkMagnitude-mean    : num  -0.942 -0.99 -0.984 -0.984 -0.985 ...
        $ FrequencyBodyGyroscopeJerkMagnitude-std     : num  -0.933 -0.989 -0.983 -0.983 -0.983 ...
+
        
 14. Finally wrote the table to TidyData.txt file. Header is not saved
 
