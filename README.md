@@ -25,7 +25,3 @@
 
 Please refer to the files listed in the repo for further details
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
