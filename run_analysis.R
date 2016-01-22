@@ -44,7 +44,7 @@ Features<- rbind(FeaturesTrain,FeaturesTest)
 CombinedData <- cbind(Subject,Activity,Features)
 
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement
+#2. Extracts only the measurements on the mean and standard deviation for each measurement
 
 # Find column names with include mean() and std() 
 FeatureColNames <- read.table("./data/UCI HAR Dataset/features.txt",strip.white=TRUE, stringsAsFactors=FALSE )
