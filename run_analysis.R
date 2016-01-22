@@ -7,19 +7,19 @@ if(!file.exists("./data"))
 	dir.create("./data")
 }
 
-FileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(FileUrl,destfile="./data/Dataset.zip")
+#FileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download.file(FileUrl,destfile="./data/Dataset.zip")
 
 #Unzip the data files
 unzip(zipfile="./data/Dataset.zip",exdir="./data")
 
 
 # Data available for analysis :
-# “X_train.txt” and “X_test.txt” contains Values of Varible Features
-# “Y_train.txt” and “Y_test.txt” contains Values of Varible Activity
-# “subject_train.txt” and subject_test.txt" contains values of Varible Subject 
-# “features.txt” contains Names of Varibles Features
-# “activity_labels.txt” contains levels of Varible Activity
+# X_train.txt� and X_test.txt� contains Values of Varible Features
+# Y_train.txt� and Y_test.txt� contains Values of Varible Activity
+# subject_train.txt� and subject_test.txt" contains values of Varible Subject 
+# features.txt� contains Names of Varibles Features
+# activity_labels.txt� contains levels of Varible Activity
 
 # 1. Merges the training and the test sets to create one data set.
 
