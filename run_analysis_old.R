@@ -75,4 +75,4 @@ names(ExtractData)<-gsub("BodyBody","Body",names(ExtractData))
 TidyData <-aggregate(ExtractData[,3:ncol(ExtractData)],by=list(Subject=ExtractData$Subject, Activity = ExtractData$Activity),mean)
 
 # Write dataframe to file "TidyData.txt"
-write.table(format(TidyData), "TidyData.txt", row.names=FALSE)
+write.table(format(TidyData), "TidyData.txt", row.names=FALSE, col.names=FALSE)
